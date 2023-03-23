@@ -291,7 +291,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
 #elif defined(__ANDROID__) && defined(STATIC_LIBXML)
 #undef LIBXML_ICU_ENABLED
 #else
-#define LIBXML_ICU_ENABLED
+//#define LIBXML_ICU_ENABLED
 #endif
 
 /**

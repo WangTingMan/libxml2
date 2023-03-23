@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SAX.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\entities.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\encoding.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parserInternals.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlIO.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlmemory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\valid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xlink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\debugXML.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xpath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xpointer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xinclude.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\catalog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\globals.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c14n.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlstring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlregexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlschemas.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlschemastypes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlunicode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlreader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\relaxng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SAX2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlwriter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\legacy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chvalid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pattern.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlsave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xmlmodule.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\schematron.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

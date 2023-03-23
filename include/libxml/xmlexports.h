@@ -12,9 +12,9 @@
 #if defined(_WIN32) || defined(__CYGWIN__)
   #ifdef LIBXML_STATIC
     #define XMLPUBLIC
-  #elif defined(IN_LIBXML)
+    #elif defined(IN_LIBXML) || defined(LIBXML2_IMPL)
     #define XMLPUBLIC __declspec(dllexport)
-  #else
+    #else
     #define XMLPUBLIC __declspec(dllimport)
   #endif
 #else /* not Windows */
